@@ -55,7 +55,7 @@ export const productDataTwo = [
     desc:
       'The Nike Sportswear Long-Sleeve Top is made with heavyweight cotton.',
     price: '$67.99',
-    button: 'PView on Nike'
+    button: 'View on Nike'
   },
   {
     img: nikepants,
