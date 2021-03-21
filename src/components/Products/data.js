@@ -74,7 +74,7 @@ export const productDataThree = [
     alt: 'nike 4',
     name: 'Jordan MA2',
     desc:
-      'TShatter the sneaker status quo in the Jordan MA2.',
+      'Shatter the sneaker status quo in the Jordan MA2.',
     price: '$120.00',
     button: 'purchase'
   },
