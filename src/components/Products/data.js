@@ -16,7 +16,7 @@ export const productData = [
     desc:
       'In the ‘70s, Nike was the new shoe on the block. This was the shoe to buy.',
     price: '$100.00',
-    button: 'Add to Cart'
+    button: 'View on Nike'
   },
   {
     img: mikejordan,
@@ -25,7 +25,7 @@ export const productData = [
     desc:
       ' A closet staple, that will make you look fly.',
     price: '$45.00',
-    button: 'Purchase'
+    button: 'View on Nike'
   },
   {
     img: mxmaster,
@@ -34,7 +34,7 @@ export const productData = [
     desc:
       ' Get after those long runs with the Nike ZoomX.',
     price: '$180.00',
-    button: 'Purchase'
+    button: 'View on Nike'
   }
 ];
 
@@ -46,7 +46,7 @@ export const productDataTwo = [
     desc:
       'This classic Air Force 1 is a staple peice',
     price: '$120.00',
-    button: 'purchase'
+    button: 'View on Nike'
   },
   {
     img: nike1,
@@ -55,7 +55,7 @@ export const productDataTwo = [
     desc:
       'The Nike Sportswear Long-Sleeve Top is made with heavyweight cotton.',
     price: '$67.99',
-    button: 'Purchase'
+    button: 'PView on Nike'
   },
   {
     img: nikepants,
@@ -64,7 +64,7 @@ export const productDataTwo = [
     desc:
       'The Nike Sportswear Pants update a style staple for fitness.',
     price: '$80.00',
-    button: 'Purchase'
+    button: 'View on Nike'
   }
 ];
 
@@ -76,7 +76,7 @@ export const productDataThree = [
     desc:
       'Shatter the sneaker status quo in the Jordan MA2.',
     price: '$120.00',
-    button: 'purchase'
+    button: 'View on Nike'
   },
   {
     img: nikeshirt,
@@ -85,7 +85,7 @@ export const productDataThree = [
     desc:
       'Showcase Los Angeles, finest in the Nike Sportswear T-Shirt.',
     price: '$30.00',
-    button: 'Purchase'
+    button: 'View on Nike'
   },
   {
     img: nikejacket,
@@ -94,6 +94,6 @@ export const productDataThree = [
     desc:
       'The Nike Sportswear M65 Jacket is a modern take on a vintage military favorite.',
     price: '$170.00',
-    button: 'Purchase'
+    button: 'View on Nike'
   }
 ];
