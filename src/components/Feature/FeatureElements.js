@@ -15,6 +15,7 @@ export const FeatureContainer = styled.div`
   color: #fff;
   text-align: center;
   padding: 0 1rem;
+  border: black solid;
 
   h1 {
     font-size: clamp(3rem, 5vw, 5rem);

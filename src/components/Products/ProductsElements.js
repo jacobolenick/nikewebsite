@@ -19,6 +19,7 @@ export const ProductCard = styled.div`
   margin: 0 2rem;
   line-height: 2;
   width: 300px;
+  
 `;
 
 
@@ -26,15 +27,15 @@ export const ProductImg = styled.img`
   height: 375px;
   min-width: 300px;
   max-width: 100%;
-  border-radius: 12px;
-  box-shadow: 6px 6px 20px #CCC;
-  box-shadow: 5px 2px 20px grey;
+  border-radius: 0px;
+  border: black solid;
+  
 `;
 
 export const ProductsHeading = styled.h1`
   font-size: clamp(2rem, 2.5vw, 3rem);
   text-align: center;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 `;
 
 export const ProductTitle = styled.h2`
@@ -47,7 +48,7 @@ export const ProductInfo = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding: .5rem;
   text-align: center;
 `;
 
@@ -67,13 +68,13 @@ export const ProductButton = styled.button`
   padding: 1rem 4rem;
   border: none;
   background: #000;
-  border-radius: 8px;
+  border-radius: opx;
+  border: black solid;
   color: #FFF;
-  box-shadow: 6px 6px 20px #ccc;
   transition: 0.2 ease-out;
 
   &:hover {
-    background: #E9E9E8;
+    background: white;
     transition: 0.2s ease-out;
     cursor: pointer;
     color: #000;
