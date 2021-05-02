@@ -31,15 +31,16 @@ export const FeatureButton = styled.button`
   font-size: 1.4rem;
   padding: 0.6rem 3rem;
   border: none;
-  background: #fff;
-  color: #000;
-  border-radius: 8px;
-  box-shadow: 5px 2px 20px black;
+  background: transparent;
+  color: white;
+  border-radius: 0px;
+  border: white solid;
   transition: 0.2s ease-out;
 
   &:hover {
-    color: #FFF;
-    background: #000;
+    color: black;
+    background: white;
+    border: white solid;
     transition: 0.2s ease-out;
     cursor: pointer;
   }
