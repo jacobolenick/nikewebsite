@@ -36,10 +36,12 @@ export const ProductsHeading = styled.h1`
   font-size: clamp(2rem, 2.5vw, 3rem);
   text-align: center;
   margin-bottom: 3rem;
+  border: black solid;
+  padding: 10px;
 `;
 
 export const ProductTitle = styled.h2`
-  font-weight: 460;
+  font-weight: 600;
   font-size: 1.5rem;
 `;
 
@@ -54,29 +56,29 @@ export const ProductInfo = styled.div`
 
 export const ProductDesc = styled.p`
   margin-bottom: 1rem;
-  font-weight: 150;
+  font-weight: 300;
 `;
 
 export const ProductPrice = styled.p`
   margin-bottom: 1rem;
-  font-size: 2rem;
-  font-weight: 200;
+  font-size: 1rem;
+  font-weight: 400;
 `;
 
 export const ProductButton = styled.button`
   font-size: 1rem;
   padding: 1rem 4rem;
   border: none;
-  background: #000;
+  background: white;
   border-radius: opx;
   border: black solid;
-  color: #FFF;
+  color: black;
   transition: 0.2 ease-out;
 
   &:hover {
-    background: white;
+    background: black;
     transition: 0.2s ease-out;
     cursor: pointer;
-    color: #000;
+    color: white;
   }
 `;

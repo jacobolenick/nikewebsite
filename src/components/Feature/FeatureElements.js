@@ -24,7 +24,7 @@ export const FeatureContainer = styled.div`
   p {
     margin-bottom: 1rem;
     font-size: clamp(1rem, 3vw, 2rem);
-    font-weight: 200;
+    font-weight: 300;
   }
 `;
 export const FeatureButton = styled.button`
